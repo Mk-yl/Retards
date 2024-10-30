@@ -1,0 +1,7 @@
+﻿{
+  "ConnectionsStrings": {
+    "default": "Data Source=xxx;Initial Catalog=xxx;Integrated Security=True;"
+    
+    
+  }
+}

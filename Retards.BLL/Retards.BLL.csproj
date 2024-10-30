@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0-preview.2.24128.5" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Retards.DAL.API.Tests\Retards.DAL.API.Tests.csproj" />
+      <ProjectReference Include="..\Retards.DAL.API\Retards.DAL.API.csproj" />
+      <ProjectReference Include="..\Retards.DAL.BDD.Tests\Retards.DAL.BDD.Tests.csproj" />
+      <ProjectReference Include="..\Retards.DAL.BDD\Retards.DAL.BDD.csproj" />
+      <ProjectReference Include="..\Retards.DTO\Retards.DTO.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="obj\**" />
+    </ItemGroup>
+
+</Project>

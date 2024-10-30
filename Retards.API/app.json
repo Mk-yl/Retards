@@ -1,0 +1,10 @@
+﻿{
+  
+  "ConnectionStrings": {
+    "default": "Data Source=localhost;Initial Catalog=Retards;Integrated Security=True"
+    ,"baseURL": "http://maison.latetedanslatoile.fr/"
+    
+  }
+  
+}
+

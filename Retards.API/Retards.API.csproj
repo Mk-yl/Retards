@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.3"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Retards.BLL\Retards.BLL.csproj" />
+      <ProjectReference Include="..\Retards.DAL.API\Retards.DAL.API.csproj" />
+      <ProjectReference Include="..\Retards.DAL.BDD\Retards.DAL.BDD.csproj" />
+      <ProjectReference Include="..\Retards.DTO\Retards.DTO.csproj" />
+      <ProjectReference Include="..\Retards.Services\Retards.Services.csproj" />
+    </ItemGroup>
+
+</Project>
